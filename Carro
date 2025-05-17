@@ -1,82 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <title>Site sobre Carros</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-        }
+  <meta charset="UTF-8">
+  <title>Qualidade de Vida</title>
+  <style>
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+    }
 
-        header {
-            text-align: center;
-            margin-bottom: 30px;
-        }
+    .bloco-destaque {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 40px;
+      justify-content: flex-start;
+    }
 
-        header img {
-            width: 600px;
-            height: auto;
-            border-radius: 10px;
-        }
+    .texto-destaque {
+      color: #2C3E50;
+      font-family: 'Arial', sans-serif;
+      font-size: 18px;
+      line-height: 1.6;
+      max-width: 500px;
+      text-align: justify;
+    }
 
-        .conteudo {
-            max-width: 800px;
-            text-align: justify;
-        }
-
-        .imagens-laterais {
-            float: right;
-            margin-left: 20px;
-        }
-
-        .imagens-laterais img {
-            display: block;
-            margin-bottom: 10px;
-            width: 200px;
-            height: auto;
-            border-radius: 8px;
-        }
-
-        p {
-            margin-bottom: 20px;
-        }
-    </style>
+    .imagem-destaque {
+      width: 250px;
+      height: auto;
+      border-radius: 8px;
+    }
+  </style>
 </head>
 <body>
 
-    <header>
-        <img src="https://quatrorodas.abril.com.br/wp-content/uploads/2021/02/ferrari_sf90_stradale_52_02c6028410890c65.jpg?quality=70&strip=info&w=720&crop=1" alt="Imagem de Carros">
-    </header>
+  <main class="container">
+    <h1>Importância da Qualidade de Vida</h1>
 
-    <div class="imagens-laterais">
-        <img src="https://www.carrobrasil.com.br/foto/20250130-161457-7166-whatsapp-image-2025-01-30-at-15.11.37-2.jpeg" alt="Carro 1">
-        <img src="https://www.autoentusiastas.com.br/ae/wp-content/uploads/2016/12/dea02d-GTA5-2016-08-28-17-25-48-602.jpg" alt="Carro 2">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQguTDBJpBbOjEdYvsh8IIj06zpaOruG5-EtA&s" alt="Carro 3">
-        <img src="https://quatrorodas.abril.com.br/wp-content/uploads/2024/05/438177_1108202_16218_mclarensennasempre-e1716306298328.jpg?crop=1&resize=1212,909" alt="Carro 4">
-        <img src="https://www.webmotors.com.br/imagens/prod/379794/LAMBORGHINI_REVUELTO_6.5_V12_PHEV_AMT_37979416582357157.webp?s=fill&w=180&h=134&q=70&t=true" alt="Carro 5">
-    </div>
+    <section class="bloco-destaque">
+      <p class="texto-destaque">
+        Qualidade de vida é um conceito amplo que envolve bem-estar físico, mental e social.
+        Ter uma alimentação balanceada, praticar exercícios físicos regularmente e dormir bem
+        são aspectos fundamentais para manter o equilíbrio da saúde. Além disso, ter relações
+        interpessoais saudáveis e tempo para lazer também são componentes essenciais. Quando esses
+        fatores estão alinhados, as pessoas tendem a ter maior produtividade e satisfação com a vida.
+      </p>
+      <img src="https://www.gov.br/saude/pt-br/assuntos/saude-brasil/eu-quero-me-exercitar/noticias/2018/5-dicas-para-melhorar-a-pratica-de-atividade-fisica/jogging.jpg" alt="Pessoa praticando atividades físicas" class="imagem-destaque">
+    </section>
 
-    <div class="conteudo">
-        <p>
-            Os carros são uma das maiores invenções da humanidade, possibilitando locomoção rápida e prática. Desde os primeiros modelos movidos a vapor até os veículos elétricos atuais, o automóvel evoluiu de forma impressionante. Eles desempenham um papel fundamental em nossas rotinas diárias, conectando cidades e facilitando o transporte de pessoas e mercadorias.
-        </p>
-        <p>
-            A indústria automobilística está em constante evolução, com avanços tecnológicos que tornam os veículos mais seguros, eficientes e confortáveis. Sistemas de navegação, sensores de estacionamento e controle de estabilidade são apenas alguns exemplos de inovações que se tornaram comuns. Além disso, o design dos carros também acompanha tendências estéticas e funcionais.
-        </p>
-        <p>
-            Com o aumento da preocupação ambiental, os carros elétricos e híbridos estão ganhando cada vez mais espaço no mercado. Empresas como Tesla, Toyota e BMW investem pesadamente em soluções sustentáveis, reduzindo a emissão de poluentes e promovendo um futuro mais verde. A autonomia e a infraestrutura de recarga ainda são desafios, mas os avanços são promissores.
-        </p>
-        <p>
-            No Brasil, o carro também tem forte ligação cultural. Modelos como o Fusca, o Gol e o Opala marcaram gerações e continuam sendo valorizados por colecionadores. Feiras e encontros de carros antigos são comuns em várias regiões do país, reunindo apaixonados por motores e histórias sobre quatro rodas.
-        </p>
-        <p>
-            A paixão por carros vai além do uso diário: muitos se dedicam ao tuning, que é a personalização de veículos. Rodas maiores, pinturas diferenciadas, som automotivo e alterações no motor fazem parte desse universo. Cada carro tunado reflete a personalidade de seu dono, tornando-se uma extensão da sua identidade.
-        </p>
-        <p>
-            Por fim, os carros autônomos representam o futuro da mobilidade. Empresas como Google, Uber e Apple desenvolvem tecnologias para veículos que dirigem sozinhos, prometendo mais segurança e eficiência no trânsito. Ainda existem obstáculos legais e técnicos, mas é provável que nos próximos anos esses carros façam parte do nosso cotidiano.
-        </p>
-    </div>
+    <section class="bloco-destaque">
+      <p class="texto-destaque">
+        Outro fator importante para a qualidade de vida é o ambiente em que vivemos e trabalhamos.
+        Um local limpo, seguro e com acesso a serviços básicos melhora significativamente o bem-estar.
+        Além disso, equilíbrio entre vida pessoal e profissional é fundamental para evitar o estresse crônico.
+        Investir em saúde mental, como praticar meditação ou buscar apoio psicológico, também contribui muito.
+        Com pequenas mudanças diárias, é possível alcançar uma vida mais saudável e equilibrada.
+      </p>
+      <img src="https://i.ytimg.com/vi/5g61v9jdfog/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYACogWKAgwIABABGGUgZSg0MA8=&rs=AOn4CLCW4EJFpUyeFRXHRG-JpbH7ZNGadw" alt="Ambiente tranquilo com natureza" class="imagem-destaque">
+    </section>
+
+  </main>
 
 </body>
 </html>
